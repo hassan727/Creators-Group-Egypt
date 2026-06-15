@@ -5,6 +5,14 @@
 
 import { Service, Project, Testimonial, TimelineEvent } from './types';
 
+// Local image imports — Vite handles hashing and bundling correctly
+import heroBgImg from './assets/images/cairo_hero_construction_1781467890616.jpg';
+import engineersImg from './assets/images/engineers_site_blueprints_1781467904814.jpg';
+import luxuryVillaImg from './assets/images/luxury_villa_complex_1781467918202.jpg';
+import infrastructureImg from './assets/images/infrastructure_drone_shot_1781467933127.jpg';
+import handshakeImg from './assets/images/construction_handshake_1781467946926.jpg';
+import steelConcreteImg from './assets/images/steel_concrete_structure_1781467962830.jpg';
+
 export const CONTACT_INFO = {
   phone: '012 81447691',
   phoneCall: '+201281447691',
@@ -20,12 +28,12 @@ export const CONTACT_INFO = {
 };
 
 export const IMAGES = {
-  heroBg: '/src/assets/images/cairo_hero_construction_1781467890616.jpg',
-  engineers: '/src/assets/images/engineers_site_blueprints_1781467904814.jpg',
-  luxuryVilla: '/src/assets/images/luxury_villa_complex_1781467918202.jpg',
-  infrastructure: '/src/assets/images/infrastructure_drone_shot_1781467933127.jpg',
-  handshake: '/src/assets/images/construction_handshake_1781467946926.jpg',
-  steelConcrete: '/src/assets/images/steel_concrete_structure_1781467962830.jpg',
+  heroBg: heroBgImg,
+  engineers: engineersImg,
+  luxuryVilla: luxuryVillaImg,
+  infrastructure: infrastructureImg,
+  handshake: handshakeImg,
+  steelConcrete: steelConcreteImg,
   
   // High quality complementary Unsplash images for full coverage (Projects 4, 5, 6 etc.)
   commercialTower: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop', // Beautiful finished glazed modern curtainwall commercial tower
